@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Music from './music';
 
 export default function Footer() {
-  const instaImagePath = '/insta.JPEG';
+  const instaImagePath = '/insta.jpeg';
   const youtubeImagePath = '/Insta.PNG';
 
   return (
