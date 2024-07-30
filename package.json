@@ -1,0 +1,57 @@
+{
+  "name": "music",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build || true",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.5.0",
+    "axios": "^1.7.2",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "framer-motion": "^11.2.10",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.3",
+    "next-connect": "^1.0.0",
+    "nodemailer": "^6.9.14",
+    "qrcode.react": "^3.1.0",
+    "razorpay": "^2.9.4",
+    "react": "^18",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^18",
+    "react-modal": "^3.16.1",
+    "react-qr-code": "^2.0.15",
+    "reactjs-popup": "^2.0.6",
+    "tailwind-merge": "^2.3.0",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-modal": "^3.16.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "npm": "^10.8.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+  
+}
+
