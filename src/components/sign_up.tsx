@@ -106,7 +106,7 @@ export default function SignUp({setOnClose,onClose,setRegistered,setLogin,setMai
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <button onClick={Verification}   className="submit bg-red-600 hover:bg-red-700 text-white rounded px-4 py-2 fw-bold mr-3 mt-2">
+      <button onClick={Verification}   className="submit bg-red-600 hover:bg-red-700 text-white rounded px-4 py-2 fw-bold mr-3 mt-1">
         Submit
       </button>
       { ( verification &&
@@ -118,7 +118,7 @@ export default function SignUp({setOnClose,onClose,setRegistered,setLogin,setMai
             value={code}
             onChange={(e) => getCode(e.target.value)}
           />
-          <button onClick={Code} className="submit bg-red-600 hover:bg-red-700 text-white rounded px-4 py-2 fw-bold">
+          <button onClick={Code} className="submit bg-red-600 hover:bg-red-700 text-white rounded px-4 py-2 fw-bold mt-1">
             Submit
           </button>
         </div>
