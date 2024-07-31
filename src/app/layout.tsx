@@ -8,12 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "EOH Music",
-  description: "Feel Your Music",
-  icons:{
-    icon: ['/favicon.ico'],
-    apple:['/apple-touch-icon.png'],
-    shortcut:['/apple-touch-icon.png']
-  }
+  description: "Feel Your Music"
 };
 
 export default function RootLayout({
