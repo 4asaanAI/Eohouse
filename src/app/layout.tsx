@@ -7,7 +7,7 @@ import Layout from "./routing/Layout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EOH",
+  title: "EOH Music",
   description: "Feel Your Music",
   icons:{
     icon: ['/favicon.ico'],
